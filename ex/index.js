@@ -1,18 +1,9 @@
-
 const logger = require('./logger')
+import Pessoa from './pessoa'
 
-class Pessoa{
-    constructor(nome){
-        logger.info(nome)
-        this.nome = nome;
-    }
 
-    toString(){
-        return `Pessoa: ${this.nome}`
-    }
-    
-}
 
 const pessoa = new Pessoa('THIAGO ARAUJO - tjca1@hotmail.com')
 logger.info(pessoa.toString());
+console.log(pessoa.toString()) 
 
