@@ -16,7 +16,7 @@ module.exports = {
            loader: 'babel-loader',
            exclude: /node_modeles/,
            query: {
-               presets:['es2015'],
+               presets:['es2015','react'],
                plugins:['transform-object-rest-spread']
            }
 

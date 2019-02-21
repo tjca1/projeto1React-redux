@@ -1,8 +1,12 @@
 const logger = require('./logger')
 import Pessoa from './pessoa'
 import Produto from './produto'
+import 'react'
 
 
+export default props => (
+    `<h1>REACT<h1/>`
+)
 
 const pessoa = new Pessoa('THIAGO ARAUJO - tjca1@hotmail.com')
 logger.info(pessoa.toString());
@@ -15,4 +19,5 @@ logger.info(JSON.stringify(p));
 logger.info('=============================================================================');
 const novoP = produto.clone(p);
 novoP.nome = 'NOME TESTE CLONE';
-logger.info(JSON.stringify(novoP));  
+logger.info(JSON.stringify(novoP)); 
+
