@@ -1,7 +1,9 @@
 const logger = require('./logger')
 import Pessoa from './pessoa'
 import Produto from './produto'
+import './estilo.css'
 import 'react'
+
 
 
 export default props => (
